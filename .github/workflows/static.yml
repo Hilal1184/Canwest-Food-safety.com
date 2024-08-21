@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CanWest Food Safety and Quality Solutions Inc.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #006f44;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #004d2d;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h1, h2 {
+            color: #006f44;
+        }
+        footer {
+            background-color: #004d2d;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #006f44;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CanWest Food Safety and Quality Solutions Inc.</h1>
+    <p>Your Partner in Food Safety and Quality Management</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#software">Software Solutions</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="container">
+    <section id="home">
+        <h2>Welcome to CanWest Food Safety and Quality Solutions Inc.</h2>
+        <p>At CanWest, we specialize in providing comprehensive food safety and quality management services to help your business comply with regulatory requirements and maintain the highest standards of food safety.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>CanWest Food Safety and Quality Solutions Inc. is dedicated to helping food industry businesses navigate the complex landscape of food safety regulations. With extensive experience in food safety audits, training, and software development, we are your go-to experts for all things related to food safety and quality assurance.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li><strong>Food Safety Audits:</strong> Comprehensive audits to ensure compliance with industry standards.</li>
+            <li><strong>Training:</strong> Tailored training programs to educate your staff on food safety best practices.</li>
+            <li><strong>Software Development:</strong> Custom software solutions to help you maintain accurate food safety records and streamline your processes.</li>
+            <li><strong>Regulatory Compliance:</strong> Assistance with meeting local and international food safety regulations.</li>
+        </ul>
+    </section>
+
+    <section id="software">
+        <h2>Software Solutions</h2>
+        <p>We develop customized software designed to help you maintain and manage your food safety records efficiently. Our solutions are tailored to meet the specific needs of your business, ensuring that your food safety management system is both robust and user-friendly.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 CanWest Food Safety and Quality Solutions Inc. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
